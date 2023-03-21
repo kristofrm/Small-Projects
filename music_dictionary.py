@@ -10,7 +10,7 @@ def main():
     #Open infile and prime loop that populates newly created dictionary
     try:
         print('Welcome to my music collection')
-        infile = open('music_collection.txt', 'r')
+        infile = open('music_dictionart_input.txt', 'r')
     except ValueError:
         print('File not found. Program terminating ...')
     else:
